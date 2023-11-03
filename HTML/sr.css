@@ -1,0 +1,18 @@
+body{
+    background-image: url(./desktop-wallpaper-blood-donation-blood-donor-thumbnail.jpg);
+}
+img{
+    opacity: 30%;
+}
+button{
+    font-size:x-small;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: overline;
+}
+.h1{
+    text-decoration: dotted;
+    position: fixed;
+    text-shadow: 5px 5px 8px;
+}
