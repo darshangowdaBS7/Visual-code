@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <style type="text/css">
+            .block
+            {
+                position: absolute;
+                left: 50px;
+                width: 130px;
+                height: 30px;
+                margin: 5px;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="ReferencetoYourJqueryFile" type="text/javascript"></script>
+    </head>
+    <body style="background-image: url(lovepik-a-running-intelligent-man-of-science-and-background-image_400082154.jpg);background-repeat: no-repeat;background-size: cover;">
+        <div class="block">
+            <input type="button" name="btnClick" value="🏃Catch me 🏃‍♂️" style="width: 130px;
+                height: 30px; border: 1px sold silver; background-color: #0655fe" />
+        </div>
+        <script type="text/javascript">
+            $(".block").mouseover(function () {
+                $(".block").animate({ 
+                        left:(Math.random()*1000),
+                        top:(Math.random()*500),
+                 }, "fast");
+            });
+        </script>
+    </body>
+    </html> 
